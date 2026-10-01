@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: c9c56541cd27eec449861f805e40bb4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2802121307845600376
+    second: Robin Casabal (21)_0
+  - first:
+      213: 2455237191116719050
+    second: Robin Casabal (21)_1
+  - first:
+      213: 2358313763339148470
+    second: Robin Casabal (21)_2
+  - first:
+      213: -3394074866572940435
+    second: Robin Casabal (21)_3
+  - first:
+      213: 7686740588412538620
+    second: Robin Casabal (21)_4
+  - first:
+      213: -5596608537560822808
+    second: Robin Casabal (21)_5
+  - first:
+      213: -5441396769225296776
+    second: Robin Casabal (21)_6
+  - first:
+      213: 6895706627336739798
+    second: Robin Casabal (21)_7
+  - first:
+      213: 1228936807979227933
+    second: Robin Casabal (21)_8
+  - first:
+      213: -4687174672918871992
+    second: Robin Casabal (21)_9
+  - first:
+      213: 866686931893369331
+    second: Robin Casabal (21)_10
+  - first:
+      213: 7684906530466104342
+    second: Robin Casabal (21)_11
+  - first:
+      213: -2369870997723012892
+    second: Robin Casabal (21)_12
+  - first:
+      213: 15096022851083597
+    second: Robin Casabal (21)_13
+  - first:
+      213: 1365172024575193929
+    second: Robin Casabal (21)_14
+  - first:
+      213: 4392526643234110541
+    second: Robin Casabal (21)_15
+  - first:
+      213: -3562001965977397783
+    second: Robin Casabal (21)_16
+  - first:
+      213: 887957328531536261
+    second: Robin Casabal (21)_17
+  - first:
+      213: -1137399357854588907
+    second: Robin Casabal (21)_18
+  - first:
+      213: -3780074959453391480
+    second: Robin Casabal (21)_19
+  - first:
+      213: -53773090486327349
+    second: Robin Casabal (21)_20
+  - first:
+      213: 5207890888097005147
+    second: Robin Casabal (21)_21
+  - first:
+      213: 8415541488594395288
+    second: Robin Casabal (21)_22
+  - first:
+      213: -2762258342573410841
+    second: Robin Casabal (21)_23
+  - first:
+      213: 4805061449732532307
+    second: Robin Casabal (21)_24
+  - first:
+      213: -9057100023174445724
+    second: Robin Casabal (21)_25
+  - first:
+      213: 619094560428959972
+    second: Robin Casabal (21)_26
+  - first:
+      213: 1188852178641842812
+    second: Robin Casabal (21)_27
+  - first:
+      213: 3704930005187319597
+    second: Robin Casabal (21)_28
+  - first:
+      213: -3223096485160796412
+    second: Robin Casabal (21)_29
+  - first:
+      213: 4643896766579575864
+    second: Robin Casabal (21)_30
+  - first:
+      213: 7613113351289569868
+    second: Robin Casabal (21)_31
+  - first:
+      213: -6724803530398690069
+    second: Robin Casabal (21)_32
+  - first:
+      213: 3887577563345354757
+    second: Robin Casabal (21)_33
+  - first:
+      213: 7805887811825339924
+    second: Robin Casabal (21)_34
+  - first:
+      213: -2119810714514120486
+    second: Robin Casabal (21)_35
+  - first:
+      213: -1923257332200166889
+    second: Robin Casabal (21)_36
+  - first:
+      213: 3901119821209738949
+    second: Robin Casabal (21)_37
+  - first:
+      213: -3280422757210662163
+    second: Robin Casabal (21)_38
+  - first:
+      213: -8428503495248372939
+    second: Robin Casabal (21)_39
+  - first:
+      213: -7438024184756307559
+    second: Robin Casabal (21)_40
+  - first:
+      213: 2974226348436033778
+    second: Robin Casabal (21)_41
+  - first:
+      213: -5190147281538606035
+    second: Robin Casabal (21)_42
+  - first:
+      213: 3669790496807440765
+    second: Robin Casabal (21)_43
+  - first:
+      213: -9191053294471786599
+    second: Robin Casabal (21)_44
+  - first:
+      213: -4350326196871732333
+    second: Robin Casabal (21)_45
+  - first:
+      213: 2695511583433862056
+    second: Robin Casabal (21)_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robin Casabal (21)_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1091
+        width: 241
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b5f4c448ddc19d0800000000000000
+      internalID: -2802121307845600376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1091
+        width: 241
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac307d78731c21220800000000000000
+      internalID: 2455237191116719050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_2
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1091
+        width: 240
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc9eb47fd96ab020800000000000000
+      internalID: 2358313763339148470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_3
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1094
+        width: 232
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ba6d434e2d5e0d0800000000000000
+      internalID: -3394074866572940435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_4
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1092
+        width: 468
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe08ecc6d9ccaa60800000000000000
+      internalID: 7686740588412538620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_5
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1089
+        width: 234
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebc4cbef2ad452b0800000000000000
+      internalID: -5596608537560822808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_6
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1084
+        width: 229
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8743e58d7764c74b0800000000000000
+      internalID: -5441396769225296776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 883
+        width: 226
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db96bd74a872bf50800000000000000
+      internalID: 6895706627336739798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_8
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 878
+        width: 220
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b1103048f0e0110800000000000000
+      internalID: 1228936807979227933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_9
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 871
+        width: 199
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840867cf77fc3feb0800000000000000
+      internalID: -4687174672918871992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_10
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 873
+        width: 258
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f93af23c27170c00800000000000000
+      internalID: 866686931893369331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_11
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 877
+        width: 234
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6140388e5c546aa60800000000000000
+      internalID: 7684906530466104342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_12
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 877
+        width: 229
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0283932e68c1fd0800000000000000
+      internalID: -2369870997723012892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_13
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 876
+        width: 226
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d5f87b0c1a53000800000000000000
+      internalID: 15096022851083597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_14
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 881
+        width: 229
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943fa1e29b012f210800000000000000
+      internalID: 1365172024575193929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_15
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 660
+        width: 258
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c786c95b365fc30800000000000000
+      internalID: 4392526643234110541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_16
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 667
+        width: 228
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e59ca0951a319ec0800000000000000
+      internalID: -3562001965977397783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_17
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 665
+        width: 240
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589b3d65c78a25c00800000000000000
+      internalID: 887957328531536261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_18
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 673
+        width: 217
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510e15b6f452730f0800000000000000
+      internalID: -1137399357854588907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_19
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 674
+        width: 214
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8857e612ad97a8bc0800000000000000
+      internalID: -3780074959453391480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_20
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 674
+        width: 222
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7661bb8a5f04ff0800000000000000
+      internalID: -53773090486327349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_21
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 667
+        width: 222
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ef30e8b25264840800000000000000
+      internalID: 5207890888097005147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_22
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 674
+        width: 219
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8902b3c75620ac470800000000000000
+      internalID: 8415541488594395288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 467
+        width: 239
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e57d092cac7aa9d0800000000000000
+      internalID: -2762258342573410841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_24
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 465
+        width: 231
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3582b332ee10fa240800000000000000
+      internalID: 4805061449732532307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_25
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 466
+        width: 245
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4654187f387be4280800000000000000
+      internalID: -9057100023174445724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_26
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 470
+        width: 223
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8aebcf837779800800000000000000
+      internalID: 619094560428959972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_27
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 472
+        width: 230
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c727566f1c6af7010800000000000000
+      internalID: 1188852178641842812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_28
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 467
+        width: 232
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2750ecc53e8a6330800000000000000
+      internalID: 3704930005187319597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_29
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 466
+        width: 231
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f3e2dc2d24543d0800000000000000
+      internalID: -3223096485160796412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_30
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 471
+        width: 217
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c8f89318f627040800000000000000
+      internalID: 4643896766579575864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_31
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 287
+        width: 233
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42066ac14637a960800000000000000
+      internalID: 7613113351289569868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_32
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 284
+        width: 227
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be41b4291d2bca2a0800000000000000
+      internalID: -6724803530398690069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_33
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 284
+        width: 229
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5008af3523373f530800000000000000
+      internalID: 3887577563345354757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_34
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 283
+        width: 236
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e86648b95145c60800000000000000
+      internalID: 7805887811825339924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_35
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 283
+        width: 231
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0a15ae26be492e0800000000000000
+      internalID: -2119810714514120486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_36
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 283
+        width: 228
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a2b8e65a73f45e0800000000000000
+      internalID: -1923257332200166889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_37
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 282
+        width: 226
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce1171fecf832630800000000000000
+      internalID: 3901119821209738949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_38
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 279
+        width: 220
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dead95bf1e89972d0800000000000000
+      internalID: -3280422757210662163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_39
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 100
+        width: 230
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b15992ab0f70b80800000000000000
+      internalID: -8428503495248372939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_40
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 108
+        width: 226
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999f5dc8964d6c890800000000000000
+      internalID: -7438024184756307559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_41
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 100
+        width: 240
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f013241b13964920800000000000000
+      internalID: 2974226348436033778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_42
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 103
+        width: 254
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c9ee7cb84e8f7b0800000000000000
+      internalID: -5190147281538606035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_43
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 102
+        width: 227
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71df427307bde230800000000000000
+      internalID: 3669790496807440765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_44
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 100
+        width: 229
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f435799b1d27080800000000000000
+      internalID: -9191053294471786599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_45
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 98
+        width: 236
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393626a7f5980a3c0800000000000000
+      internalID: -4350326196871732333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robin Casabal (21)_46
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 98
+        width: 227
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aba682f081686520800000000000000
+      internalID: 2695511583433862056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Robin Casabal (21)_0: -2802121307845600376
+      Robin Casabal (21)_1: 2455237191116719050
+      Robin Casabal (21)_10: 866686931893369331
+      Robin Casabal (21)_11: 7684906530466104342
+      Robin Casabal (21)_12: -2369870997723012892
+      Robin Casabal (21)_13: 15096022851083597
+      Robin Casabal (21)_14: 1365172024575193929
+      Robin Casabal (21)_15: 4392526643234110541
+      Robin Casabal (21)_16: -3562001965977397783
+      Robin Casabal (21)_17: 887957328531536261
+      Robin Casabal (21)_18: -1137399357854588907
+      Robin Casabal (21)_19: -3780074959453391480
+      Robin Casabal (21)_2: 2358313763339148470
+      Robin Casabal (21)_20: -53773090486327349
+      Robin Casabal (21)_21: 5207890888097005147
+      Robin Casabal (21)_22: 8415541488594395288
+      Robin Casabal (21)_23: -2762258342573410841
+      Robin Casabal (21)_24: 4805061449732532307
+      Robin Casabal (21)_25: -9057100023174445724
+      Robin Casabal (21)_26: 619094560428959972
+      Robin Casabal (21)_27: 1188852178641842812
+      Robin Casabal (21)_28: 3704930005187319597
+      Robin Casabal (21)_29: -3223096485160796412
+      Robin Casabal (21)_3: -3394074866572940435
+      Robin Casabal (21)_30: 4643896766579575864
+      Robin Casabal (21)_31: 7613113351289569868
+      Robin Casabal (21)_32: -6724803530398690069
+      Robin Casabal (21)_33: 3887577563345354757
+      Robin Casabal (21)_34: 7805887811825339924
+      Robin Casabal (21)_35: -2119810714514120486
+      Robin Casabal (21)_36: -1923257332200166889
+      Robin Casabal (21)_37: 3901119821209738949
+      Robin Casabal (21)_38: -3280422757210662163
+      Robin Casabal (21)_39: -8428503495248372939
+      Robin Casabal (21)_4: 7686740588412538620
+      Robin Casabal (21)_40: -7438024184756307559
+      Robin Casabal (21)_41: 2974226348436033778
+      Robin Casabal (21)_42: -5190147281538606035
+      Robin Casabal (21)_43: 3669790496807440765
+      Robin Casabal (21)_44: -9191053294471786599
+      Robin Casabal (21)_45: -4350326196871732333
+      Robin Casabal (21)_46: 2695511583433862056
+      Robin Casabal (21)_5: -5596608537560822808
+      Robin Casabal (21)_6: -5441396769225296776
+      Robin Casabal (21)_7: 6895706627336739798
+      Robin Casabal (21)_8: 1228936807979227933
+      Robin Casabal (21)_9: -4687174672918871992
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
