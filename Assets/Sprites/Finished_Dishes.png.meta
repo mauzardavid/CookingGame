@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: f7c74d94955595f489083d3202cf56c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4570591547944313421
+    second: Finished_Dishes_0
+  - first:
+      213: 8209547114987363236
+    second: Finished_Dishes_1
+  - first:
+      213: 7582593585184386487
+    second: Finished_Dishes_2
+  - first:
+      213: -652053440740120767
+    second: Finished_Dishes_3
+  - first:
+      213: 6047284333949239989
+    second: Finished_Dishes_4
+  - first:
+      213: -4005900573590284286
+    second: Finished_Dishes_5
+  - first:
+      213: -1254997718022324015
+    second: Finished_Dishes_6
+  - first:
+      213: -960997074161015300
+    second: Finished_Dishes_7
+  - first:
+      213: -566908482036210444
+    second: Finished_Dishes_8
+  - first:
+      213: 4289783341986784635
+    second: Finished_Dishes_9
+  - first:
+      213: 3395820326056302540
+    second: Finished_Dishes_10
+  - first:
+      213: -8576876424257023904
+    second: Finished_Dishes_11
+  - first:
+      213: -9208026886096543612
+    second: Finished_Dishes_12
+  - first:
+      213: -7946866990687762764
+    second: Finished_Dishes_13
+  - first:
+      213: 3340338639756008232
+    second: Finished_Dishes_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Finished_Dishes_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 541
+        width: 243
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42af9cfbc00e6f30800000000000000
+      internalID: 4570591547944313421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 533
+        width: 226
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab97a3ea9b2ee170800000000000000
+      internalID: 8209547114987363236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 543
+        width: 237
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd221101b8ca3960800000000000000
+      internalID: 7582593585184386487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_3
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 542
+        width: 241
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1472d12b9d073f6f0800000000000000
+      internalID: -652053440740120767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_4
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 528
+        width: 249
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b244d4df054ce350800000000000000
+      internalID: 6047284333949239989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 282
+        width: 257
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2081e9907ae2868c0800000000000000
+      internalID: -4005900573590284286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 286
+        width: 216
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d08a57893a559ee0800000000000000
+      internalID: -1254997718022324015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_7
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 283
+        width: 257
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5617ca04ad9a2f0800000000000000
+      internalID: -960997074161015300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_8
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 289
+        width: 253
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4631c3dbfe128f0800000000000000
+      internalID: -566908482036210444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_9
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 288
+        width: 228
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75a286a83f588b30800000000000000
+      internalID: 4289783341986784635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 38
+        width: 252
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc713af3890602f20800000000000000
+      internalID: 3395820326056302540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_11
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 43
+        width: 217
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060dcb99550d8f880800000000000000
+      internalID: -8576876424257023904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_12
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 43
+        width: 216
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48028f35554863080800000000000000
+      internalID: -9208026886096543612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_13
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 37
+        width: 257
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b647c6839e07b190800000000000000
+      internalID: -7946866990687762764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_Dishes_14
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 41
+        width: 226
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b1b248b444b5e20800000000000000
+      internalID: 3340338639756008232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Finished_Dishes_0: 4570591547944313421
+      Finished_Dishes_1: 8209547114987363236
+      Finished_Dishes_10: 3395820326056302540
+      Finished_Dishes_11: -8576876424257023904
+      Finished_Dishes_12: -9208026886096543612
+      Finished_Dishes_13: -7946866990687762764
+      Finished_Dishes_14: 3340338639756008232
+      Finished_Dishes_2: 7582593585184386487
+      Finished_Dishes_3: -652053440740120767
+      Finished_Dishes_4: 6047284333949239989
+      Finished_Dishes_5: -4005900573590284286
+      Finished_Dishes_6: -1254997718022324015
+      Finished_Dishes_7: -960997074161015300
+      Finished_Dishes_8: -566908482036210444
+      Finished_Dishes_9: 4289783341986784635
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
