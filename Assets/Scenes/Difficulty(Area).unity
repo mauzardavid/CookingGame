@@ -752,15 +752,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 332889211}
-        m_TargetAssemblyTypeName: EasyButton, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+        m_TargetAssemblyTypeName: AreaButton, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 2
+          m_StringArgument: Luzon
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &332889209
@@ -810,9 +810,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 332889206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7597290170a56664d8e97fd9bbbdd4c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f6ea1978891f7f4aa90cf7ce564ca9b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EasyButton
+  m_EditorClassIdentifier: Assembly-CSharp::AreaButton
+  gameplaySceneName: Luzon
+  areaData: {fileID: 11400000, guid: 8dd80ddcaa0d96849a037317d94c9fc5, type: 2}
 --- !u!1 &420691057
 GameObject:
   m_ObjectHideFlags: 0

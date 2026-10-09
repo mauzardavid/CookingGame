@@ -883,8 +883,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OrderCompleteDisplay
   messageText: {fileID: 1082204680}
-  nextOrderSceneName: 2
-  menuSceneName: 1
+  nextOrderButton: {fileID: 1153698120}
+  shiftCompleteLine: Shift complete!
+  nextOrderSceneName: Luzon
+  menuSceneName: Difficulty(Area)
 --- !u!4 &1141571339
 Transform:
   m_ObjectHideFlags: 0
