@@ -3,21 +3,21 @@ using UnityEngine.SceneManagement;
 
 public class TimesUpDisplay : MonoBehaviour
 {
-    [Tooltip("Scene name/number to load to retry (your gameplay scene)")]
+    [Tooltip("Only used if no gameplay scene is remembered (testing this scene alone)")]
     public string retrySceneName = "2";
-
-    [Tooltip("Scene name/number to load for the main menu")]
+    [Tooltip("Area-select scene")]
     public string menuSceneName = "1";
 
-    // Hook to the RETRY button's OnClick()
+    // dishIndex is not changed on a fail, so the SAME dish restarts.
     public void OnRetryPressed()
     {
-        SceneManager.LoadScene(retrySceneName);
+        string scene = string.IsNullOrEmpty(GameSession.areaSceneName) ? retrySceneName : GameSession.areaSceneName;
+        SceneManager.LoadScene(scene);
     }
 
-    // Hook to the BACK TO MENU button's OnClick()
     public void OnBackToMenuPressed()
     {
+        GameSession.StartNewShift();
         SceneManager.LoadScene(menuSceneName);
     }
 }

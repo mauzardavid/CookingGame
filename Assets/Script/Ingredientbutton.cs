@@ -1,14 +1,18 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 [RequireComponent(typeof(Button))]
 public class IngredientButton : MonoBehaviour
 {
-    [Tooltip("Must match the ingredient name used in CraftingManager's recipe list, e.g. 'Egg', 'Water', 'Rice'")]
     public string ingredientName;
-
-    [Tooltip("The image that will appear on the table slot when this ingredient is picked")]
     public Sprite ingredientIcon;
+
+    [Header("Optional")]
+    [Tooltip("Text that shows the name. If empty, the first TMP Text inside the button is used.")]
+    public TMP_Text label;
+    [Tooltip("Picture on the button itself")]
+    public Image iconImage;
 
     private Button button;
 
@@ -23,9 +27,25 @@ public class IngredientButton : MonoBehaviour
         CraftingManager.Instance.TryPlaceIngredient(this);
     }
 
-    // Called by CraftingManager to lock/unlock this button
+    // Called by CraftingManager when it creates a choice button
+    public void Setup(string ingredient, Sprite icon)
+    {
+        ingredientName = ingredient;
+        ingredientIcon = icon;
+
+        TMP_Text text = label != null ? label : GetComponentInChildren<TMP_Text>(true);
+        if (text != null) text.text = ingredient;
+
+        if (iconImage != null)
+        {
+            iconImage.sprite = icon;
+            iconImage.enabled = icon != null;
+        }
+    }
+
     public void SetUsed(bool used)
     {
-        button.interactable = !used;
+        if (button == null) button = GetComponent<Button>();
+        if (button != null) button.interactable = !used;
     }
 }
