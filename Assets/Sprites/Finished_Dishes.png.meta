@@ -155,330 +155,330 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Finished_Dishes_0
+      name: Longganisang Lucban
       rect:
         serializedVersion: 2
-        x: 27
-        y: 541
-        width: 243
-        height: 170
+        x: 18
+        y: 532
+        width: 261
+        height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d42af9cfbc00e6f30800000000000000
+      spriteID: cc5ccd8463f9e5e4fbafdee680bf7507
       internalID: 4570591547944313421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_1
+      name: Bulalo
       rect:
         serializedVersion: 2
-        x: 307
-        y: 533
-        width: 226
-        height: 183
+        x: 298
+        y: 524
+        width: 244
+        height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4ab97a3ea9b2ee170800000000000000
+      spriteID: e415f29593242be4b94eed981ad22d00
       internalID: 8209547114987363236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_2
+      name: Buko Pie
       rect:
         serializedVersion: 2
-        x: 570
-        y: 543
-        width: 237
-        height: 168
+        x: 561
+        y: 534
+        width: 255
+        height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7bd221101b8ca3960800000000000000
+      spriteID: ceb32264cb99089429d51246d08f5307
       internalID: 7582593585184386487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_3
+      name: Pastillas
       rect:
         serializedVersion: 2
-        x: 836
-        y: 542
-        width: 241
-        height: 171
+        x: 827
+        y: 533
+        width: 259
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1472d12b9d073f6f0800000000000000
+      spriteID: 96990e7eda7170946a4c36ba251464ce
       internalID: -652053440740120767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_4
+      name: Sinaing na Tulingan
       rect:
         serializedVersion: 2
-        x: 1103
-        y: 528
-        width: 249
-        height: 195
+        x: 1094
+        y: 519
+        width: 267
+        height: 213
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5b244d4df054ce350800000000000000
+      spriteID: 6bc6253ad1b93ca409f0492842ff2eb2
       internalID: 6047284333949239989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_5
+      name: Chicken Inasal
       rect:
         serializedVersion: 2
-        x: 20
-        y: 282
-        width: 257
-        height: 182
+        x: 11
+        y: 273
+        width: 275
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2081e9907ae2868c0800000000000000
+      spriteID: 51a4c6a6ab26f8d4892b45308e636b4f
       internalID: -4005900573590284286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_6
+      name: Binignit
       rect:
         serializedVersion: 2
-        x: 313
-        y: 286
-        width: 216
-        height: 175
+        x: 304
+        y: 277
+        width: 234
+        height: 193
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1d08a57893a559ee0800000000000000
+      spriteID: cb0d814e47aa3fe4f9e025fadc52461e
       internalID: -1254997718022324015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_7
+      name: Piaya
       rect:
         serializedVersion: 2
-        x: 562
-        y: 283
-        width: 257
-        height: 176
+        x: 553
+        y: 274
+        width: 275
+        height: 194
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cf5617ca04ad9a2f0800000000000000
+      spriteID: b115c9ffb9bc3a248afdc164908bac34
       internalID: -960997074161015300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_8
+      name: Puto Maya
       rect:
         serializedVersion: 2
-        x: 830
-        y: 289
-        width: 253
-        height: 179
+        x: 821
+        y: 280
+        width: 271
+        height: 197
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4f4631c3dbfe128f0800000000000000
+      spriteID: 668b72ac5a38f8e4aaa8d59f6146181f
       internalID: -566908482036210444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_9
+      name: Paksiw na Isda
       rect:
         serializedVersion: 2
-        x: 1114
-        y: 288
-        width: 228
-        height: 175
+        x: 1105
+        y: 279
+        width: 246
+        height: 193
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b75a286a83f588b30800000000000000
+      spriteID: afd941f8fff955a43bb87ae29508285e
       internalID: 4289783341986784635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_10
+      name: Grilled Tuna
       rect:
         serializedVersion: 2
-        x: 23
-        y: 38
-        width: 252
-        height: 170
+        x: 14
+        y: 29
+        width: 270
+        height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cc713af3890602f20800000000000000
+      spriteID: 23989f53c97ef2c4bb1d146c601c72da
       internalID: 3395820326056302540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_11
+      name: Kinilaw na Isda
       rect:
         serializedVersion: 2
-        x: 313
-        y: 43
-        width: 217
-        height: 164
+        x: 304
+        y: 34
+        width: 235
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 060dcb99550d8f880800000000000000
+      spriteID: 129091c13aa09a245be57ca870f1cf60
       internalID: -8576876424257023904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_12
+      name: Tuna Kinilaw
       rect:
         serializedVersion: 2
-        x: 580
-        y: 43
-        width: 216
-        height: 161
+        x: 571
+        y: 34
+        width: 234
+        height: 179
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48028f35554863080800000000000000
+      spriteID: 95c8a6a7060211f4395a84c9acfe68b1
       internalID: -9208026886096543612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_13
+      name: Satti
       rect:
         serializedVersion: 2
-        x: 829
-        y: 37
-        width: 257
-        height: 191
+        x: 820
+        y: 28
+        width: 275
+        height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4b647c6839e07b190800000000000000
+      spriteID: 4d5ccb7695e955240baa8eaacbb2f0cd
       internalID: -7946866990687762764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finished_Dishes_14
+      name: Ginataang Isda
       rect:
         serializedVersion: 2
-        x: 1115
-        y: 41
-        width: 226
-        height: 167
+        x: 1106
+        y: 32
+        width: 244
+        height: 185
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 82b1b248b444b5e20800000000000000
+      spriteID: 62918555d1cb50a41810e6b661dfa53f
       internalID: 3340338639756008232
       vertices: []
       indices: 
@@ -488,7 +488,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 99da909d08d86644f836b3f37d9104d9
     internalID: 0
     vertices: []
     indices: 
@@ -498,6 +498,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Binignit: -1254997718022324015
+      Buko Pie: 7582593585184386487
+      Bulalo: 8209547114987363236
+      Chicken Inasal: -4005900573590284286
       Finished_Dishes_0: 4570591547944313421
       Finished_Dishes_1: 8209547114987363236
       Finished_Dishes_10: 3395820326056302540
@@ -513,6 +517,17 @@ TextureImporter:
       Finished_Dishes_7: -960997074161015300
       Finished_Dishes_8: -566908482036210444
       Finished_Dishes_9: 4289783341986784635
+      Ginataang Isda: 3340338639756008232
+      Grilled Tuna: 3395820326056302540
+      Kinilaw na Isda: -8576876424257023904
+      Longganisang Lucban: 4570591547944313421
+      Paksiw na Isda: 4289783341986784635
+      Pastillas: -652053440740120767
+      Piaya: -960997074161015300
+      Puto Maya: -566908482036210444
+      Satti: -7946866990687762764
+      Sinaing na Tulingan: 6047284333949239989
+      Tuna Kinilaw: -9208026886096543612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

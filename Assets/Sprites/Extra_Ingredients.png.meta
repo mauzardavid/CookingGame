@@ -125,111 +125,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Extra_Ingredients_0
+      name: Heat
       rect:
         serializedVersion: 2
-        x: 72
-        y: 566
-        width: 369
-        height: 427
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6111848cb268173f0800000000000000
-      internalID: -904794527522877162
+      spriteID: 6dbfd651bac76b742bbf3a75a6984949
+      internalID: 988012301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Extra_Ingredients_1
+      name: Muscovado Sugar
       rect:
         serializedVersion: 2
-        x: 574
-        y: 595
-        width: 388
-        height: 360
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: db90a4f273ce5dd80800000000000000
-      internalID: -8226409422561605187
+      spriteID: 0bec8c4f565925e4299145d7e4b9fc90
+      internalID: 1311604073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Extra_Ingredients_2
+      name: Margarine
       rect:
         serializedVersion: 2
-        x: 37
-        y: 131
-        width: 366
-        height: 301
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8b95a6af9ce8d1de0800000000000000
-      internalID: -1360774514255177288
+      spriteID: d95a5fa2da9d6a648a2c2c2046be85c9
+      internalID: -1700211432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Extra_Ingredients_3
+      name: Soy Sauce
       rect:
         serializedVersion: 2
-        x: 216
-        y: 56
-        width: 259
-        height: 159
+        x: 512
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 444d5674d4b2259c0800000000000000
-      internalID: -3940039113085430716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Extra_Ingredients_4
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 67
-        width: 338
-        height: 386
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1bbc8784245e56d0800000000000000
-      internalID: -2999867785912468708
+      spriteID: 61cae9f8ed5a5c944bcacad050eccb71
+      internalID: 910879201
       vertices: []
       indices: 
       edges: []
@@ -238,7 +216,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 70de96b720b9e764b9a12399bdbe86f1
     internalID: 0
     vertices: []
     indices: 
@@ -253,6 +231,10 @@ TextureImporter:
       Extra_Ingredients_2: -1360774514255177288
       Extra_Ingredients_3: -3940039113085430716
       Extra_Ingredients_4: -2999867785912468708
+      Heat: 988012301
+      Margarine: -1700211432
+      Muscovado Sugar: 1311604073
+      Soy Sauce: 910879201
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

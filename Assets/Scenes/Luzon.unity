@@ -449,6 +449,7 @@ RectTransform:
   - {fileID: 1069617966}
   - {fileID: 68363181}
   - {fileID: 1647536949}
+  - {fileID: 1888565230838635689}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -679,6 +680,7 @@ GameObject:
   - component: {fileID: 361506524}
   - component: {fileID: 361506523}
   - component: {fileID: 361506522}
+  - component: {fileID: 361506525}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -760,6 +762,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &361506525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361506521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &385462937
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,6 +942,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IngredientButton
   ingredientName: Egg
   ingredientIcon: {fileID: 0}
+  label: {fileID: 0}
+  iconImage: {fileID: 0}
 --- !u!1 &445516958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,6 +1080,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IngredientButton
   ingredientName: Oil
   ingredientIcon: {fileID: 0}
+  label: {fileID: 0}
+  iconImage: {fileID: 0}
 --- !u!1 &450110332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3501,6 +3551,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IngredientButton
   ingredientName: Water
   ingredientIcon: {fileID: 4164744761163438241, guid: 2db6e758528095e449b27a2be81d5234, type: 3}
+  label: {fileID: 0}
+  iconImage: {fileID: 0}
 --- !u!1 &1647536948
 GameObject:
   m_ObjectHideFlags: 0
@@ -3911,6 +3963,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IngredientButton
   ingredientName: Cheese
   ingredientIcon: {fileID: 0}
+  label: {fileID: 0}
+  iconImage: {fileID: 0}
 --- !u!1 &1871047424
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,6 +4176,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IngredientButton
   ingredientName: Flour
   ingredientIcon: {fileID: 0}
+  label: {fileID: 0}
+  iconImage: {fileID: 0}
 --- !u!1 &1893636682
 GameObject:
   m_ObjectHideFlags: 0
@@ -4151,19 +4207,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 773fb9f0fc619d842887b8c4c6004494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CraftingManager
-  recipes:
-  - ingredientA: Rice
-    ingredientB: Water
-    resultName: Cooked Rice
-    resultSprite: {fileID: -2195979275663928652, guid: acb661a38c6520241835803937155afd, type: 3}
-    hint: What do you add first when you cook rice?
+  defaultArea: {fileID: 0}
+  dishes: []
+  choiceButtonPrefab: {fileID: 0}
+  choicesContainer: {fileID: 0}
   slot1Icon: {fileID: 98477424}
   slot2Icon: {fileID: 1621048145}
   resultIcon: {fileID: 1069617968}
   orderNameText: {fileID: 1239247407}
+  originText: {fileID: 0}
+  progressText: {fileID: 0}
   feedbackText: {fileID: 68363183}
   feedbackDuration: 1.2
   correctMessage: Correct!
+  stepMessage: Nice!
   wrongMessage: Wrong Recipe
   gameTimer: {fileID: 1026698559}
   orderCompleteSceneName: 3
@@ -4321,6 +4378,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IngredientButton
   ingredientName: Rice
   ingredientIcon: {fileID: -5750353039905602045, guid: ce97841219d4cb94e99b03433339089c, type: 3}
+  label: {fileID: 0}
+  iconImage: {fileID: 0}
 --- !u!1 &2105418983
 GameObject:
   m_ObjectHideFlags: 0
@@ -4537,6 +4596,108 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134189349}
   m_CullTransparentMesh: 1
+--- !u!1001 &1888565230838635688
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 124920348}
+    m_Modifications:
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 178.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -104.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806046394725370010, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+      propertyPath: m_Name
+      value: ChoiceButton
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+--- !u!224 &1888565230838635689 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 188134183726928108, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
+  m_PrefabInstance: {fileID: 1888565230838635688}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

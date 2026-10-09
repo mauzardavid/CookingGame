@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0cfaaf7f03baae42a09bb1315032a85, type: 3}
+  m_Name: Luzon
+  m_EditorClassIdentifier: Assembly-CSharp::AreaData
+  areaName: Luzon
+  dishes:
+  - dishName: Longganisang Lucban
+    origin: Quezon - CALABARZON (Region IV-A)
+    timeLimit: 300
+    startingChoices:
+    - ingredientName: Ground Pork
+      icon: {fileID: 7641075103996889635, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Garlic
+      icon: {fileID: 1845359137144016053, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Vinegar
+      icon: {fileID: 6433055592894162278, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Sugar
+      icon: {fileID: 3956790626070292793, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Salt
+      icon: {fileID: 4424271315939866804, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Onion
+      icon: {fileID: 8285828631053697030, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Ground Pork
+      ingredientB: Garlic
+      resultName: Garlic Pork
+      resultSprite: {fileID: -1908011086, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Start with the meat and the garlic.
+    - ingredientA: Garlic Pork
+      ingredientB: Vinegar
+      resultName: Marinated Pork
+      resultSprite: {fileID: -893818902, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Marinate the garlicky pork in something sour.
+    - ingredientA: Marinated Pork
+      ingredientB: Sugar
+      resultName: Longganisang Lucban
+      resultSprite: {fileID: 4570591547944313421, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Lucban longganisa is sweet. Add the final seasoning.
+  - dishName: Bulalo
+    origin: Batangas - CALABARZON (Region IV-A)
+    timeLimit: 300
+    startingChoices:
+    - ingredientName: Beef Shank
+      icon: {fileID: 1049345993608476990, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Marrow Bones
+      icon: {fileID: 6463893688377180622, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Water
+      icon: {fileID: -2858820527988814422, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Onion
+      icon: {fileID: 8285828631053697030, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Corn
+      icon: {fileID: -3763835040338069129, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Cabbage
+      icon: {fileID: 2829275598139960554, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Beef Shank
+      ingredientB: Marrow Bones
+      resultName: Beef Bone Mix
+      resultSprite: {fileID: 71129341, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Begin with the two beef parts.
+    - ingredientA: Beef Bone Mix
+      ingredientB: Water
+      resultName: Beef Broth
+      resultSprite: {fileID: 914718683, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: A soup needs liquid.
+    - ingredientA: Beef Broth
+      ingredientB: Onion
+      resultName: Seasoned Broth
+      resultSprite: {fileID: 964456699, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Season the broth with a vegetable.
+    - ingredientA: Seasoned Broth
+      ingredientB: Corn
+      resultName: Corn Beef Soup
+      resultSprite: {fileID: 1507598649, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Add the sweet yellow vegetable.
+    - ingredientA: Corn Beef Soup
+      ingredientB: Cabbage
+      resultName: Bulalo
+      resultSprite: {fileID: 8209547114987363236, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Finish with the leafy green.
+  - dishName: Buko Pie
+    origin: Laguna - CALABARZON (Region IV-A)
+    timeLimit: 300
+    startingChoices:
+    - ingredientName: Buko
+      icon: {fileID: -976547900972300144, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Sugar
+      icon: {fileID: 3956790626070292793, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Milk
+      icon: {fileID: 2292363272344975512, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Flour
+      icon: {fileID: 134912274554605505, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Butter
+      icon: {fileID: -1811272136999082607, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Salt
+      icon: {fileID: 4424271315939866804, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Buko
+      ingredientB: Sugar
+      resultName: Sweet Buko
+      resultSprite: {fileID: -576156222, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Sweeten the coconut.
+    - ingredientA: Sweet Buko
+      ingredientB: Milk
+      resultName: Buko Filling
+      resultSprite: {fileID: 425720085, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Make the filling creamy.
+    - ingredientA: Flour
+      ingredientB: Butter
+      resultName: Pie Dough
+      resultSprite: {fileID: -506357798, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: The crust is made separately from flour and fat.
+    - ingredientA: Buko Filling
+      ingredientB: Pie Dough
+      resultName: Buko Pie
+      resultSprite: {fileID: 7582593585184386487, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Put the filling and the crust together.
+  - dishName: Pastillas
+    origin: Bulacan - Central Luzon (Region III)
+    timeLimit: 300
+    startingChoices:
+    - ingredientName: Milk
+      icon: {fileID: 2292363272344975512, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Powdered Milk
+      icon: {fileID: -9212022496132874571, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Sugar
+      icon: {fileID: 3956790626070292793, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Heat
+      icon: {fileID: 988012301, guid: c94253aea3124944fa29318b0a3122a3, type: 3}
+    - ingredientName: Butter
+      icon: {fileID: -1811272136999082607, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Flour
+      icon: {fileID: 134912274554605505, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Milk
+      ingredientB: Powdered Milk
+      resultName: Milk Mixture
+      resultSprite: {fileID: 1452212299, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Two kinds of milk go first.
+    - ingredientA: Milk Mixture
+      ingredientB: Sugar
+      resultName: Sweet Milk
+      resultSprite: {fileID: -986690363, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Make it sweet.
+    - ingredientA: Sweet Milk
+      ingredientB: Heat
+      resultName: Pastillas
+      resultSprite: {fileID: -652053440740120767, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Cook it down until it can be rolled.
+  - dishName: Sinaing na Tulingan
+    origin: Batangas - CALABARZON (Region IV-A)
+    timeLimit: 300
+    startingChoices:
+    - ingredientName: Tulingan
+      icon: {fileID: -6024271103639268514, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Salt
+      icon: {fileID: 4424271315939866804, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Kamias
+      icon: {fileID: 2385208702603898473, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Water
+      icon: {fileID: -2858820527988814422, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Vinegar
+      icon: {fileID: 6433055592894162278, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Garlic
+      icon: {fileID: 1845359137144016053, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Tulingan
+      ingredientB: Salt
+      resultName: Salted Tulingan
+      resultSprite: {fileID: 959235504, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Season the fish first.
+    - ingredientA: Salted Tulingan
+      ingredientB: Kamias
+      resultName: Sour Tulingan
+      resultSprite: {fileID: -593308976, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: The sour fruit softens the fish.
+    - ingredientA: Sour Tulingan
+      ingredientB: Water
+      resultName: Sinaing na Tulingan
+      resultSprite: {fileID: 6047284333949239989, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Slow-cook it with water.
