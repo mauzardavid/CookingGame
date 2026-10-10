@@ -1120,6 +1120,7 @@ GameObject:
   - component: {fileID: 1620973721}
   - component: {fileID: 1620973720}
   - component: {fileID: 1620973719}
+  - component: {fileID: 1620973722}
   m_Layer: 5
   m_Name: Hard
   m_TagString: Untagged
@@ -1190,7 +1191,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1620973720}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1620973722}
+        m_TargetAssemblyTypeName: AreaButton, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1620973720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1229,6 +1242,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620973717}
   m_CullTransparentMesh: 1
+--- !u!114 &1620973722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620973717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6ea1978891f7f4aa90cf7ce564ca9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AreaButton
+  gameplaySceneName: Mindanao
+  areaData: {fileID: 11400000, guid: 28fa1c1eb319caa4994d1104f881463e, type: 2}
 --- !u!1 &1742004657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,6 +1268,7 @@ GameObject:
   - component: {fileID: 1742004661}
   - component: {fileID: 1742004660}
   - component: {fileID: 1742004659}
+  - component: {fileID: 1742004662}
   m_Layer: 5
   m_Name: Medium
   m_TagString: Untagged
@@ -1311,7 +1339,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1742004660}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1742004662}
+        m_TargetAssemblyTypeName: AreaButton, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1742004660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1350,6 +1390,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742004657}
   m_CullTransparentMesh: 1
+--- !u!114 &1742004662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742004657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6ea1978891f7f4aa90cf7ce564ca9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AreaButton
+  gameplaySceneName: Visayas
+  areaData: {fileID: 11400000, guid: 46ad5f586fc38714abe10b6004e5ecf6, type: 2}
 --- !u!1 &2124077250
 GameObject:
   m_ObjectHideFlags: 0

@@ -31,6 +31,8 @@ public class Dish
     public string dishName;
     [Tooltip("Region of origin, e.g. 'Quezon - CALABARZON (IV-A)'")]
     public string origin;
+    [Tooltip("Short fun fact shown on the Order Complete screen")]
+    [TextArea] public string trivia;
     [Tooltip("Time for this dish, in seconds")]
     public float timeLimit = 300f;
     [Tooltip("Choices shown at the start (decoys allowed)")]

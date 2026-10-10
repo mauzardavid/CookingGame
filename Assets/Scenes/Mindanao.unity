@@ -2737,7 +2737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 773fb9f0fc619d842887b8c4c6004494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CraftingManager
-  defaultArea: {fileID: 11400000, guid: 8dd80ddcaa0d96849a037317d94c9fc5, type: 2}
+  defaultArea: {fileID: 11400000, guid: 28fa1c1eb319caa4994d1104f881463e, type: 2}
   dishes: []
   choiceButtonPrefab: {fileID: 7217160894278090356, guid: 52d19649313b8b64babe9e5bf1a70562, type: 3}
   choicesContainer: {fileID: 659752738}

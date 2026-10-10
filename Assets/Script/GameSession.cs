@@ -5,6 +5,11 @@ public static class GameSession
     public static float remainingTime;
     public static string completedOrderName;
 
+    // Shown on the Order Complete screen
+    public static UnityEngine.Sprite completedSprite;
+    public static string completedOrigin = "";
+    public static string completedTrivia = "";
+
     // The gameplay scene being played. CraftingManager fills this in by itself.
     public static string areaSceneName = "";
 

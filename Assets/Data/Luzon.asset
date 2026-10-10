@@ -16,6 +16,9 @@ MonoBehaviour:
   dishes:
   - dishName: Longganisang Lucban
     origin: Quezon - CALABARZON (Region IV-A)
+    trivia: Lucban's longganisa is garlicky and tangy from vinegar, not sweet like
+      many other sausages. Lucban is also home to the colorful Pahiyas Festival every
+      May.
     timeLimit: 300
     startingChoices:
     - ingredientName: Ground Pork
@@ -48,6 +51,8 @@ MonoBehaviour:
       hint: Lucban longganisa is sweet. Add the final seasoning.
   - dishName: Bulalo
     origin: Batangas - CALABARZON (Region IV-A)
+    trivia: Bulalo is named after the bone marrow in the beef shank, the prize of
+      the dish. It is a favorite in the cool highlands of Batangas and nearby Tagaytay.
     timeLimit: 300
     startingChoices:
     - ingredientName: Beef Shank
@@ -90,6 +95,8 @@ MonoBehaviour:
       hint: Finish with the leafy green.
   - dishName: Buko Pie
     origin: Laguna - CALABARZON (Region IV-A)
+    trivia: Buko means young coconut. This pie is a famous pasalubong from Laguna,
+      especially Los Banos, filled with tender coconut strips in a creamy custard.
     timeLimit: 300
     startingChoices:
     - ingredientName: Buko
@@ -127,6 +134,9 @@ MonoBehaviour:
       hint: Put the filling and the crust together.
   - dishName: Pastillas
     origin: Bulacan - Central Luzon (Region III)
+    trivia: Pastillas de leche is traditionally made from carabao's milk. Bulacan
+      sweet makers wrap each candy in paper cut into delicate lace-like patterns
+      called pabalat.
     timeLimit: 300
     startingChoices:
     - ingredientName: Milk
@@ -159,6 +169,8 @@ MonoBehaviour:
       hint: Cook it down until it can be rolled.
   - dishName: Sinaing na Tulingan
     origin: Batangas - CALABARZON (Region IV-A)
+    trivia: Sinaing means slowly cooked. Tulingan is simmered for hours in a clay
+      pot with kamias and salt until even the fish bones turn soft enough to eat.
     timeLimit: 300
     startingChoices:
     - ingredientName: Tulingan

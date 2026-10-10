@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0cfaaf7f03baae42a09bb1315032a85, type: 3}
+  m_Name: Mindanao
+  m_EditorClassIdentifier: Assembly-CSharp::AreaData
+  areaName: Mindanao
+  dishes:
+  - dishName: Grilled Tuna
+    origin: General Santos City, South Cotabato - SOCCSKSARGEN (Region XII)
+    trivia: General Santos City is known as the Tuna Capital of the Philippines.
+      Its fishing port lands tuna every day, and its Tuna Festival is held every
+      September.
+    timeLimit: 180
+    startingChoices:
+    - ingredientName: Tuna
+      icon: {fileID: 2829886802440023473, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Salt
+      icon: {fileID: 4424271315939866804, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Pepper
+      icon: {fileID: -1796493753638653672, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Cooking Oil
+      icon: {fileID: 6519603652790320673, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Garlic
+      icon: {fileID: 1845359137144016053, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Chili
+      icon: {fileID: -1706663641940683812, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Vinegar
+      icon: {fileID: 6433055592894162278, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Tuna
+      ingredientB: Salt
+      resultName: Salted Tuna
+      resultSprite: {fileID: -365124545, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Start by salting the fish.
+    - ingredientA: Salted Tuna
+      ingredientB: Pepper
+      resultName: Seasoned Tuna
+      resultSprite: {fileID: 133925069, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Add the black spice.
+    - ingredientA: Seasoned Tuna
+      ingredientB: Cooking Oil
+      resultName: Grilled Tuna
+      resultSprite: {fileID: 3395820326056302540, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Oil keeps the fish from sticking on the grill.
+  - dishName: Kinilaw na Isda
+    origin: Davao City - Davao Region (Region XI)
+    trivia: Kinilaw is raw fish 'cooked' by the acid of vinegar and citrus instead
+      of heat. Dishes like it were eaten in the islands long before the Spanish arrived.
+    timeLimit: 180
+    startingChoices:
+    - ingredientName: Fresh Fish
+      icon: {fileID: 5586366862568873943, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Vinegar
+      icon: {fileID: 6433055592894162278, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Onion
+      icon: {fileID: 8285828631053697030, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Ginger
+      icon: {fileID: -1884475448132814409, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Chili
+      icon: {fileID: -1706663641940683812, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Salt
+      icon: {fileID: 4424271315939866804, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Garlic
+      icon: {fileID: 1845359137144016053, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Pepper
+      icon: {fileID: -1796493753638653672, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Fresh Fish
+      ingredientB: Vinegar
+      resultName: Vinegar Fish
+      resultSprite: {fileID: -1524460931, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Kinilaw is 'cooked' by something sour, not by heat.
+    - ingredientA: Onion
+      ingredientB: Ginger
+      resultName: Onion-Ginger Mix
+      resultSprite: {fileID: -238909350, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Prepare the aromatics separately.
+    - ingredientA: Vinegar Fish
+      ingredientB: Onion-Ginger Mix
+      resultName: Kinilaw Mix
+      resultSprite: {fileID: 267344926, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Join the fish and the aromatics.
+    - ingredientA: Kinilaw Mix
+      ingredientB: Chili
+      resultName: Spicy Kinilaw
+      resultSprite: {fileID: 1569342486, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Give it some heat.
+    - ingredientA: Spicy Kinilaw
+      ingredientB: Salt
+      resultName: Kinilaw na Isda
+      resultSprite: {fileID: -8576876424257023904, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Season it to finish.
+  - dishName: Tuna Kinilaw
+    origin: Davao City - Davao Region (Region XI)
+    trivia: Tuna kinilaw uses very fresh tuna with vinegar, onion, ginger and chili.
+      Because the fish is eaten raw, it is best made soon after the tuna is caught.
+    timeLimit: 180
+    startingChoices:
+    - ingredientName: Fresh Tuna
+      icon: {fileID: 480638588461994767, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Vinegar
+      icon: {fileID: 6433055592894162278, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Onion
+      icon: {fileID: 8285828631053697030, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Ginger
+      icon: {fileID: -1884475448132814409, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Chili
+      icon: {fileID: -1706663641940683812, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Salt
+      icon: {fileID: 4424271315939866804, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Garlic
+      icon: {fileID: 1845359137144016053, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Pepper
+      icon: {fileID: -1796493753638653672, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Fresh Tuna
+      ingredientB: Vinegar
+      resultName: Vinegar Tuna
+      resultSprite: {fileID: -1550137781, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: This time the fish is tuna. Soak it in something sour.
+    - ingredientA: Onion
+      ingredientB: Ginger
+      resultName: Onion-Ginger Mix
+      resultSprite: {fileID: -238909350, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Prepare the aromatics separately.
+    - ingredientA: Vinegar Tuna
+      ingredientB: Onion-Ginger Mix
+      resultName: Tuna Kinilaw Mix
+      resultSprite: {fileID: 784199289, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Join the tuna and the aromatics.
+    - ingredientA: Tuna Kinilaw Mix
+      ingredientB: Chili
+      resultName: Spicy Tuna
+      resultSprite: {fileID: -310629017, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Give it some heat.
+    - ingredientA: Spicy Tuna
+      ingredientB: Salt
+      resultName: Tuna Kinilaw
+      resultSprite: {fileID: -9208026886096543612, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Season it to finish.
+  - dishName: Satti
+    origin: Zamboanga City - Zamboanga Peninsula (Region IX)
+    trivia: Satti are grilled skewers served with a spicy sauce and puso, rice cooked
+      in a woven coconut-leaf pouch. In Zamboanga City it is a popular breakfast.
+    timeLimit: 180
+    startingChoices:
+    - ingredientName: Chicken
+      icon: {fileID: 4354148053587170290, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Beef
+      icon: {fileID: -2937753435096826105, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Soy Sauce
+      icon: {fileID: 910879201, guid: c94253aea3124944fa29318b0a3122a3, type: 3}
+    - ingredientName: Garlic
+      icon: {fileID: 1845359137144016053, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Cooking Oil
+      icon: {fileID: 6519603652790320673, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Salt
+      icon: {fileID: 4424271315939866804, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Pepper
+      icon: {fileID: -1796493753638653672, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Vinegar
+      icon: {fileID: 6433055592894162278, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Chicken
+      ingredientB: Soy Sauce
+      resultName: Marinated Meat
+      resultSprite: {fileID: -1962442110, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Satti is made with chicken or beef. Marinate it in the dark sauce.
+    - ingredientA: Beef
+      ingredientB: Soy Sauce
+      resultName: Marinated Meat
+      resultSprite: {fileID: -1962442110, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Satti is made with chicken or beef. Marinate it in the dark sauce.
+    - ingredientA: Garlic
+      ingredientB: Marinated Meat
+      resultName: Garlic Meat
+      resultSprite: {fileID: 1710432160, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Add the aromatic bulb.
+    - ingredientA: Garlic Meat
+      ingredientB: Salt
+      resultName: Seasoned Meat
+      resultSprite: {fileID: 86265416, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Season it.
+    - ingredientA: Seasoned Meat
+      ingredientB: Pepper
+      resultName: Peppered Meat
+      resultSprite: {fileID: 359427769, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Add the black spice.
+    - ingredientA: Peppered Meat
+      ingredientB: Cooking Oil
+      resultName: Satti
+      resultSprite: {fileID: -7946866990687762764, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Oil it before grilling the skewers.
+  - dishName: Ginataang Isda
+    origin: Davao City - Davao Region (Region XI)
+    trivia: Ginataan means cooked in coconut milk, or gata. The creamy sauce softens
+      the heat of the chili and brings out the sweetness of the fish.
+    timeLimit: 180
+    startingChoices:
+    - ingredientName: Fish
+      icon: {fileID: -651870000830905099, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Coconut Milk
+      icon: {fileID: 42788985032072167, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Garlic
+      icon: {fileID: 1845359137144016053, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Onion
+      icon: {fileID: 8285828631053697030, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Salt
+      icon: {fileID: 4424271315939866804, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Cooking Oil
+      icon: {fileID: 6519603652790320673, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Chili
+      icon: {fileID: -1706663641940683812, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Ginger
+      icon: {fileID: -1884475448132814409, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Garlic
+      ingredientB: Onion
+      resultName: Garlic-Onion Mix
+      resultSprite: {fileID: 1249797721, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Start with the two aromatics.
+    - ingredientA: Garlic-Onion Mix
+      ingredientB: Cooking Oil
+      resultName: Sauteed Mix
+      resultSprite: {fileID: 154159122, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Saute them in oil.
+    - ingredientA: Fish
+      ingredientB: Sauteed Mix
+      resultName: Seasoned Fish
+      resultSprite: {fileID: -507965517, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Add the fish to the pan.
+    - ingredientA: Seasoned Fish
+      ingredientB: Coconut Milk
+      resultName: Coconut Fish
+      resultSprite: {fileID: -177450893, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Ginataan means cooked in coconut milk.
+    - ingredientA: Coconut Fish
+      ingredientB: Salt
+      resultName: Ginataang Isda
+      resultSprite: {fileID: 3340338639756008232, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Season it to finish.

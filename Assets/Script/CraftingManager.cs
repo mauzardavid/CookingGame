@@ -173,6 +173,9 @@ public class CraftingManager : MonoBehaviour
 
             GameSession.remainingTime = remaining;
             GameSession.completedOrderName = currentDish.dishName;
+            GameSession.completedSprite = step.resultSprite;   // the finished-dish picture
+            GameSession.completedOrigin = currentDish.origin;
+            GameSession.completedTrivia = currentDish.trivia;
 
             StartCoroutine(LoadSceneAfterDelay(orderCompleteSceneName, sceneTransitionDelay));
             return;

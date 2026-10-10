@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0cfaaf7f03baae42a09bb1315032a85, type: 3}
+  m_Name: Visayas
+  m_EditorClassIdentifier: Assembly-CSharp::AreaData
+  areaName: Visayas
+  dishes:
+  - dishName: Chicken Inasal
+    origin: Bacolod, Negros Occidental - Western Visayas (Region VI)
+    trivia: Inasal comes from the Hiligaynon word for grilled. Bacolod's version
+      is basted with annatto oil, which gives the chicken its orange color, and is
+      eaten with rice.
+    timeLimit: 240
+    startingChoices:
+    - ingredientName: Chicken
+      icon: {fileID: 4354148053587170290, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Calamansi
+      icon: {fileID: 166523682711579374, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Garlic
+      icon: {fileID: 1845359137144016053, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Vinegar
+      icon: {fileID: 6433055592894162278, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Annatto
+      icon: {fileID: -7174196335194879268, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Ginger
+      icon: {fileID: -1884475448132814409, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Chicken
+      ingredientB: Calamansi
+      resultName: Calamansi Chicken
+      resultSprite: {fileID: -1771359153, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Start with the chicken and the sour citrus.
+    - ingredientA: Calamansi Chicken
+      ingredientB: Garlic
+      resultName: Garlic Chicken
+      resultSprite: {fileID: -846147266, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Add the aromatic bulb.
+    - ingredientA: Garlic Chicken
+      ingredientB: Vinegar
+      resultName: Inasal Marinade
+      resultSprite: {fileID: 914010505, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Marinate it in something sour.
+    - ingredientA: Inasal Marinade
+      ingredientB: Annatto
+      resultName: Chicken Inasal
+      resultSprite: {fileID: -4005900573590284286, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Annatto gives inasal its orange-yellow color.
+  - dishName: Binignit
+    origin: Cebu - Central Visayas (Region VII)
+    trivia: Binignit is a warm coconut milk stew of root crops, banana and sticky
+      rice. In many Visayan homes it is made during Holy Week, when people avoid
+      meat.
+    timeLimit: 240
+    startingChoices:
+    - ingredientName: Banana
+      icon: {fileID: 1771113129620292285, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Sweet Potato
+      icon: {fileID: -7657562547184392252, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Coconut Milk
+      icon: {fileID: 42788985032072167, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Sticky Rice
+      icon: {fileID: 9172528947243847714, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Sugar
+      icon: {fileID: 3956790626070292793, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Muscovado Sugar
+      icon: {fileID: 1311604073, guid: c94253aea3124944fa29318b0a3122a3, type: 3}
+    steps:
+    - ingredientA: Banana
+      ingredientB: Sweet Potato
+      resultName: Mixed Root Fruits
+      resultSprite: {fileID: -484021778, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Combine the fruit and the root crop.
+    - ingredientA: Coconut Milk
+      ingredientB: Sticky Rice
+      resultName: Creamy Rice
+      resultSprite: {fileID: -1184463819, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: The rice is cooked in coconut milk.
+    - ingredientA: Mixed Root Fruits
+      ingredientB: Creamy Rice
+      resultName: Binignit Base
+      resultSprite: {fileID: 109798528, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Bring the two mixtures together.
+    - ingredientA: Binignit Base
+      ingredientB: Sugar
+      resultName: Binignit
+      resultSprite: {fileID: -1254997718022324015, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Sweeten it to finish.
+  - dishName: Piaya
+    origin: Negros Occidental - Western Visayas (Region VI)
+    trivia: Piaya is a flat, round bread filled with muscovado, the dark sugar of
+      Negros. The island is known for its sugar farms, and piaya is a favorite pasalubong
+      from Bacolod.
+    timeLimit: 240
+    startingChoices:
+    - ingredientName: Flour
+      icon: {fileID: 134912274554605505, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Muscovado Sugar
+      icon: {fileID: 1311604073, guid: c94253aea3124944fa29318b0a3122a3, type: 3}
+    - ingredientName: Water
+      icon: {fileID: -2858820527988814422, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Margarine
+      icon: {fileID: -1700211432, guid: c94253aea3124944fa29318b0a3122a3, type: 3}
+    - ingredientName: Sugar
+      icon: {fileID: 3956790626070292793, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Salt
+      icon: {fileID: 4424271315939866804, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Flour
+      ingredientB: Water
+      resultName: Dough
+      resultSprite: {fileID: -185763985, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Begin the dough with flour and water.
+    - ingredientA: Dough
+      ingredientB: Margarine
+      resultName: Soft Dough
+      resultSprite: {fileID: 194590554, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Fat makes the dough soft.
+    - ingredientA: Soft Dough
+      ingredientB: Muscovado Sugar
+      resultName: Sweet Dough
+      resultSprite: {fileID: 426384933, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Piaya is filled with dark brown sugar.
+    - ingredientA: Sweet Dough
+      ingredientB: Flour
+      resultName: Piaya
+      resultSprite: {fileID: -960997074161015300, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: You need flour once more to shape it.
+  - dishName: Puto Maya
+    origin: Cebu - Central Visayas (Region VII)
+    trivia: Puto maya is sticky rice cooked in coconut milk with ginger. In Cebu
+      it is a classic breakfast, eaten with sikwate, a thick hot chocolate made from
+      tablea.
+    timeLimit: 240
+    startingChoices:
+    - ingredientName: Sticky Rice
+      icon: {fileID: 9172528947243847714, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Coconut Milk
+      icon: {fileID: 42788985032072167, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Ginger
+      icon: {fileID: -1884475448132814409, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Sugar
+      icon: {fileID: 3956790626070292793, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Banana
+      icon: {fileID: 1771113129620292285, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Salt
+      icon: {fileID: 4424271315939866804, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Sticky Rice
+      ingredientB: Coconut Milk
+      resultName: Coconut Sticky Rice
+      resultSprite: {fileID: 1269055736, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Cook the rice in coconut milk.
+    - ingredientA: Ginger
+      ingredientB: Sugar
+      resultName: Sweet Ginger
+      resultSprite: {fileID: -1501640877, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Make the sweet ginger on the side.
+    - ingredientA: Coconut Sticky Rice
+      ingredientB: Sweet Ginger
+      resultName: Puto Maya
+      resultSprite: {fileID: -566908482036210444, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Serve the rice with the sweet ginger.
+  - dishName: Paksiw na Isda
+    origin: Cebu - Central Visayas (Region VII)
+    trivia: Paksiw means cooked in vinegar. The vinegar helps the dish keep longer,
+      so paksiw na isda is often reheated and tastes even better the next day.
+    timeLimit: 240
+    startingChoices:
+    - ingredientName: Fish
+      icon: {fileID: -651870000830905099, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Vinegar
+      icon: {fileID: 6433055592894162278, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Garlic
+      icon: {fileID: 1845359137144016053, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Ginger
+      icon: {fileID: -1884475448132814409, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Salt
+      icon: {fileID: 4424271315939866804, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    - ingredientName: Onion
+      icon: {fileID: 8285828631053697030, guid: dadea98780536f0489ec0b51eee7d2d9, type: 3}
+    steps:
+    - ingredientA: Fish
+      ingredientB: Vinegar
+      resultName: Vinegar Fish
+      resultSprite: {fileID: -1524460931, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Paksiw means cooked in vinegar.
+    - ingredientA: Garlic
+      ingredientB: Ginger
+      resultName: Garlic-Ginger Mix
+      resultSprite: {fileID: -13519109, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Make the aromatics separately.
+    - ingredientA: Vinegar Fish
+      ingredientB: Garlic-Ginger Mix
+      resultName: Paksiw Base
+      resultSprite: {fileID: -1871684667, guid: c9c56541cd27eec449861f805e40bb4f, type: 3}
+      hint: Join the fish and the aromatics.
+    - ingredientA: Paksiw Base
+      ingredientB: Salt
+      resultName: Paksiw na Isda
+      resultSprite: {fileID: 4289783341986784635, guid: f7c74d94955595f489083d3202cf56c5, type: 3}
+      hint: Season it to finish.

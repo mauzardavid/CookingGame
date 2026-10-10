@@ -4,23 +4,23 @@ using UnityEditor;
 using UnityEngine;
 
 // Put this file in Assets/Editor.
-// Menu: MixKitchen > Build Luzon Area
-// Creates Assets/Data/Luzon.asset with all 5 Luzon dishes (choices, steps, hints)
+// Menu: MixKitchen > Build Visayas Area
+// Creates Assets/Data/Visayas.asset with all 5 Visayas dishes (choices, steps, hints)
 // and fills in the sprites by matching sprite NAMES. Sprites that are not found stay
 // empty - assign those by hand afterwards. Running it again rebuilds the asset
-// (it overwrites manual edits made to Luzon.asset).
-public static class LuzonAreaBuilder
+// (it overwrites manual edits made to Visayas.asset).
+public static class VisayasAreaBuilder
 {
     // Where to look for your sliced sprites. Use "Assets/Sprites" to make it faster.
     const string SpriteFolder = "Assets";
     const string OutputFolder = "Assets/Data";
-    const string OutputPath = "Assets/Data/Luzon.asset";
-    const float TimeLimit = 300f;
+    const string OutputPath = "Assets/Data/Visayas.asset";
+    const float TimeLimit = 240f;   // Visayas = Medium
 
     static Dictionary<string, Sprite> sprites;
     static readonly List<string> missing = new List<string>();
 
-    [MenuItem("MixKitchen/Build Luzon Area")]
+    [MenuItem("MixKitchen/Build Visayas Area")]
     public static void Build()
     {
         LoadSprites();
@@ -28,96 +28,97 @@ public static class LuzonAreaBuilder
 
         var dishes = new List<Dish>();
 
-        // 1. LONGGANISANG LUCBAN
+        // 1. CHICKEN INASAL
         dishes.Add(new Dish
         {
-            dishName = "Longganisang Lucban",
-            origin = "Quezon - CALABARZON (Region IV-A)",
+            dishName = "Chicken Inasal",
+            origin = "Bacolod, Negros Occidental - Western Visayas (Region VI)",
             timeLimit = TimeLimit,
             startingChoices = new List<IngredientDef>
             {
-                Ing("Ground Pork"), Ing("Garlic"), Ing("Vinegar"), Ing("Sugar"), Ing("Salt"), Ing("Onion")
+                Ing("Chicken"), Ing("Calamansi"), Ing("Garlic"), Ing("Vinegar"), Ing("Annatto"), Ing("Ginger")
             },
             steps = new List<RecipeStep>
             {
-                Step("Ground Pork", "Garlic", "Garlic Pork", "Start with the meat and the garlic."),
-                Step("Garlic Pork", "Vinegar", "Marinated Pork", "Marinate the garlicky pork in something sour."),
-                Step("Marinated Pork", "Sugar", "Longganisang Lucban", "Lucban longganisa is sweet. Add the final seasoning.")
+                Step("Chicken", "Calamansi", "Calamansi Chicken", "Start with the chicken and the sour citrus."),
+                Step("Calamansi Chicken", "Garlic", "Garlic Chicken", "Add the aromatic bulb."),
+                Step("Garlic Chicken", "Vinegar", "Inasal Marinade", "Marinate it in something sour."),
+                Step("Inasal Marinade", "Annatto", "Chicken Inasal", "Annatto gives inasal its orange-yellow color.")
             }
         });
 
-        // 2. BULALO
+        // 2. BINIGNIT
         dishes.Add(new Dish
         {
-            dishName = "Bulalo",
-            origin = "Batangas - CALABARZON (Region IV-A)",
+            dishName = "Binignit",
+            origin = "Cebu - Central Visayas (Region VII)",
             timeLimit = TimeLimit,
             startingChoices = new List<IngredientDef>
             {
-                Ing("Beef Shank"), Ing("Marrow Bones"), Ing("Water"), Ing("Onion"), Ing("Corn"), Ing("Cabbage")
+                Ing("Banana"), Ing("Sweet Potato"), Ing("Coconut Milk"), Ing("Sticky Rice", "Glutinous Rice"), Ing("Sugar"), Ing("Muscovado Sugar")
             },
             steps = new List<RecipeStep>
             {
-                Step("Beef Shank", "Marrow Bones", "Beef Bone Mix", "Begin with the two beef parts."),
-                Step("Beef Bone Mix", "Water", "Beef Broth", "A soup needs liquid."),
-                Step("Beef Broth", "Onion", "Seasoned Broth", "Season the broth with a vegetable."),
-                Step("Seasoned Broth", "Corn", "Corn Beef Soup", "Add the sweet yellow vegetable."),
-                Step("Corn Beef Soup", "Cabbage", "Bulalo", "Finish with the leafy green.")
+                Step("Banana", "Sweet Potato", "Mixed Root Fruits", "Combine the fruit and the root crop."),
+                Step("Coconut Milk", "Sticky Rice", "Creamy Rice", "The rice is cooked in coconut milk."),
+                Step("Mixed Root Fruits", "Creamy Rice", "Binignit Base", "Bring the two mixtures together."),
+                Step("Binignit Base", "Sugar", "Binignit", "Sweeten it to finish.")
             }
         });
 
-        // 3. BUKO PIE
+        // 3. PIAYA
         dishes.Add(new Dish
         {
-            dishName = "Buko Pie",
-            origin = "Laguna - CALABARZON (Region IV-A)",
+            dishName = "Piaya",
+            origin = "Negros Occidental - Western Visayas (Region VI)",
             timeLimit = TimeLimit,
             startingChoices = new List<IngredientDef>
             {
-                Ing("Buko"), Ing("Sugar"), Ing("Milk"), Ing("Flour", "Flour / Dough", "Dough"), Ing("Butter"), Ing("Salt")
+                Ing("Flour"), Ing("Muscovado Sugar"), Ing("Water"), Ing("Margarine"), Ing("Sugar"), Ing("Salt")
             },
             steps = new List<RecipeStep>
             {
-                Step("Buko", "Sugar", "Sweet Buko", "Sweeten the coconut."),
-                Step("Sweet Buko", "Milk", "Buko Filling", "Make the filling creamy."),
-                Step("Flour", "Butter", "Pie Dough", "The crust is made separately from flour and fat."),
-                Step("Buko Filling", "Pie Dough", "Buko Pie", "Put the filling and the crust together.")
+                Step("Flour", "Water", "Dough", "Begin the dough with flour and water."),
+                Step("Dough", "Margarine", "Soft Dough", "Fat makes the dough soft."),
+                Step("Soft Dough", "Muscovado Sugar", "Sweet Dough", "Piaya is filled with dark brown sugar."),
+                Step("Sweet Dough", "Flour", "Piaya", "You need flour once more to shape it.")
             }
         });
 
-        // 4. PASTILLAS
+        // 4. PUTO MAYA
         dishes.Add(new Dish
         {
-            dishName = "Pastillas",
-            origin = "Bulacan - Central Luzon (Region III)",
+            dishName = "Puto Maya",
+            origin = "Cebu - Central Visayas (Region VII)",
             timeLimit = TimeLimit,
             startingChoices = new List<IngredientDef>
             {
-                Ing("Milk"), Ing("Powdered Milk"), Ing("Sugar"), Ing("Heat"), Ing("Butter"), Ing("Flour", "Flour / Dough", "Dough")
+                Ing("Sticky Rice", "Glutinous Rice"), Ing("Coconut Milk"), Ing("Ginger"), Ing("Sugar"), Ing("Banana"), Ing("Salt")
             },
             steps = new List<RecipeStep>
             {
-                Step("Milk", "Powdered Milk", "Milk Mixture", "Two kinds of milk go first."),
-                Step("Milk Mixture", "Sugar", "Sweet Milk", "Make it sweet."),
-                Step("Sweet Milk", "Heat", "Pastillas", "Cook it down until it can be rolled.")
+                Step("Sticky Rice", "Coconut Milk", "Coconut Sticky Rice", "Cook the rice in coconut milk."),
+                Step("Ginger", "Sugar", "Sweet Ginger", "Make the sweet ginger on the side."),
+                Step("Coconut Sticky Rice", "Sweet Ginger", "Puto Maya", "Serve the rice with the sweet ginger.")
             }
         });
 
-        // 5. SINAING NA TULINGAN
+        // 5. PAKSIW NA ISDA
         dishes.Add(new Dish
         {
-            dishName = "Sinaing na Tulingan",
-            origin = "Batangas - CALABARZON (Region IV-A)",
+            dishName = "Paksiw na Isda",
+            origin = "Cebu - Central Visayas (Region VII)",
             timeLimit = TimeLimit,
             startingChoices = new List<IngredientDef>
             {
-                Ing("Tulingan"), Ing("Salt"), Ing("Kamias"), Ing("Water"), Ing("Vinegar"), Ing("Garlic")
+                Ing("Fish"), Ing("Vinegar"), Ing("Garlic"), Ing("Ginger"), Ing("Salt"), Ing("Onion")
             },
             steps = new List<RecipeStep>
             {
-                Step("Tulingan", "Salt", "Salted Tulingan", "Season the fish first."),
-                Step("Salted Tulingan", "Kamias", "Sour Tulingan", "The sour fruit softens the fish."),
-                Step("Sour Tulingan", "Water", "Sinaing na Tulingan", "Slow-cook it with water.")
+                Step("Fish", "Vinegar", "Vinegar Fish", "Paksiw means cooked in vinegar."),
+                Step("Garlic", "Ginger", "Garlic-Ginger Mix", "Make the aromatics separately."),
+                Step("Vinegar Fish", "Garlic-Ginger Mix", "Paksiw Base", "Join the fish and the aromatics."),
+                Step("Paksiw Base", "Salt", "Paksiw na Isda", "Season it to finish.")
             }
         });
 
@@ -133,7 +134,7 @@ public static class LuzonAreaBuilder
             AssetDatabase.CreateAsset(area, OutputPath);
         }
 
-        area.areaName = "Luzon";
+        area.areaName = "Visayas";
         area.dishes = dishes;
         DishTriviaFiller.Apply(area);
         EditorUtility.SetDirty(area);
@@ -143,12 +144,12 @@ public static class LuzonAreaBuilder
 
         if (missing.Count > 0)
         {
-            Debug.LogWarning("Luzon built, but these sprites were not found (assign them by hand or rename the sprites): "
+            Debug.LogWarning("Visayas built, but these sprites were not found (assign them by hand or rename the sprites): "
                 + string.Join(", ", new HashSet<string>(missing)));
         }
         else
         {
-            Debug.Log("Luzon built with all sprites found.");
+            Debug.Log("Visayas built with all sprites found.");
         }
     }
 
