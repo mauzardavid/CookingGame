@@ -42,6 +42,13 @@ public class GameTimer : MonoBehaviour
         timerText.text = string.Format("{0}:{1:00}", minutes, seconds);
     }
 
+    // Takes seconds off the clock (used by the hint button). Time's Up is triggered by Update when it reaches 0.
+    public void SubtractTime(float seconds)
+    {
+        timeRemaining = Mathf.Max(0f, timeRemaining - seconds);
+        UpdateDisplay();
+    }
+
     public void StopTimer() { isRunning = false; }
     public float GetRemainingSeconds() { return timeRemaining; }
 }

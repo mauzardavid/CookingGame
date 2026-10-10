@@ -44,9 +44,19 @@ public class CraftingManager : MonoBehaviour
     public string orderCompleteSceneName = "3";
     public float sceneTransitionDelay = 1.5f;
 
-    [Header("Hint (once per dish)")]
+    [Header("Hints")]
     public TMP_Text hintDisplayText;
     public Button hintButton;
+    [Tooltip("Optional: shows how many hints are left, e.g. '3'")]
+    public TMP_Text hintsLeftText;
+    [Tooltip("How many hints the player gets for each dish")]
+    public int hintsPerDish = 3;
+    [Tooltip("How long a hint stays on screen, in seconds")]
+    public float hintDisplaySeconds = 5f;
+    [Tooltip("Time taken off the clock every time a hint is used, in seconds")]
+    public float hintTimeCost = 10f;
+    public string noHintsMessage = "No hints left";
+    public string notEnoughTimeMessage = "Not enough time for a hint";
 
     private List<Dish> activeDishes;
     private Dish currentDish;
@@ -55,7 +65,8 @@ public class CraftingManager : MonoBehaviour
     private string slot2Ingredient = "";
     private IngredientButton slot1Button;
     private IngredientButton slot2Button;
-    private bool hintUsed = false;
+    private int hintsLeft;
+    private Coroutine hintRoutine;
     private bool finished = false;
     private Coroutine feedbackRoutine;
 
@@ -87,6 +98,8 @@ public class CraftingManager : MonoBehaviour
         if (progressText != null) progressText.text = "Dish " + (index + 1) + " / " + activeDishes.Count;
         if (gameTimer != null && currentDish.timeLimit > 0f) gameTimer.timeLimit = currentDish.timeLimit;
         if (hintDisplayText != null) hintDisplayText.gameObject.SetActive(false);
+        hintsLeft = Mathf.Max(0, hintsPerDish);
+        RefreshHintUI();
 
         BuildStartingChoices();
         ValidateDish();
@@ -195,24 +208,58 @@ public class CraftingManager : MonoBehaviour
     }
 
     // Hook to the HINT button
+    // Each dish gives 'hintsPerDish' hints. A hint shows for 'hintDisplaySeconds' and costs 'hintTimeCost' seconds.
     public void OnHintPressed()
     {
-        if (hintUsed || currentDish == null) return;
+        if (finished || currentDish == null) return;
 
+        if (hintsLeft <= 0)
+        {
+            ShowFeedback(noHintsMessage);
+            return;
+        }
+
+        // the hint of the first step the player has not made yet
         RecipeStep next = null;
         foreach (RecipeStep s in currentDish.steps)
         {
             if (!knownChoices.Contains(Norm(s.resultName))) { next = s; break; }
         }
+        if (next == null) return;
 
-        if (next != null && hintDisplayText != null)
+        // pay with time (only if the player can afford it)
+        if (gameTimer != null)
+        {
+            if (gameTimer.GetRemainingSeconds() <= hintTimeCost)
+            {
+                ShowFeedback(notEnoughTimeMessage);
+                return;
+            }
+            gameTimer.SubtractTime(hintTimeCost);
+        }
+
+        hintsLeft--;
+        RefreshHintUI();
+
+        if (hintDisplayText != null)
         {
             hintDisplayText.text = next.hint;
             hintDisplayText.gameObject.SetActive(true);
+            if (hintRoutine != null) StopCoroutine(hintRoutine);
+            hintRoutine = StartCoroutine(HideHintAfterDelay());
         }
+    }
 
-        hintUsed = true;
-        if (hintButton != null) hintButton.interactable = false;
+    IEnumerator HideHintAfterDelay()
+    {
+        yield return new WaitForSeconds(hintDisplaySeconds);
+        if (hintDisplayText != null) hintDisplayText.gameObject.SetActive(false);
+    }
+
+    void RefreshHintUI()
+    {
+        if (hintsLeftText != null) hintsLeftText.text = hintsLeft.ToString();
+        if (hintButton != null) hintButton.interactable = hintsLeft > 0;
     }
 
     // ---------- helpers ----------
